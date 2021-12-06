@@ -8,9 +8,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 		let set1 = setTimeout(()=>{
 
 			let items = document.getElementsByClassName('menu');
-			let hello = document.getElementById('hello');
-
-				hello.style.opacity = 1;
 				items[0].style.opacity = 1;
 
 		}, 1000)
@@ -23,8 +20,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 				this.style.height = '400px';
 				this.style.width = '400px';
 				this.style.opacity = 1;
-
-				hello.style.opacity = 0;
 
 				let others = itemsMassive.filter((currentValue)=>{
 
