@@ -1,0 +1,108 @@
+body{
+	background-image: url('6.jpg');
+	background-size: 100%;
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+}
+
+.mainmenu{
+	position: relative;
+	transition: all ease 1s;
+	max-height: 1337px;
+	max-width: 850px;
+	left: 3%;
+}
+
+.menu{
+	min-width: 900px;
+	max-width: 900px;
+	position: relative;
+	top: 5%;
+	transition: all ease 1s;
+}
+
+#menu1, #menu2, #menu3{
+	position: relative;
+	margin-top: 5%;
+	width: 900px;
+	height: 270px;
+	border-radius: 60px;
+	border: 3px solid white;
+}
+
+#icon1{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin-top: 6%;
+	margin-left: 3%;
+	background-size: 100%;
+	background-image: url('https://www.pikpng.com/pngl/b/193-1930785_call-icon-white-png-portable-network-graphics-clipart.png');
+}
+
+#icon2{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin-top: 6%;
+	margin-left: 3%;
+	background-size: 100%;
+	background-image: url('https://vm-parts.ru/wp-content/uploads/2021/06/mw.png');
+}
+
+
+#icon3{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin-top: 6%;
+	margin-left: 2%;
+	background-size: 100%;
+	background-image: url('5.png');
+}
+
+.plus{
+	width: 580px;
+	height: 180px;
+	position: relative;
+	left: 250px;
+	top: -200px;
+
+}
+
+.item{
+	width: 180px;
+	height: 180px;
+	border: 3px solid white;
+	position: relative;
+	border-radius: 30px;
+	display: inline-grid;
+	top: 10%;
+	left: 3%;
+}
+
+#it1, #it2, #it3, #it4, #it5, #it6, #it7, #it8, #it9{
+	margin-top: -2%;
+}
+
+#it7{
+	background-size: 100%;
+	background-image: url('https://pbs.twimg.com/media/E2pyFDmWQAEArQv.jpg');
+}
+
+#it8{
+	background-size: 100%;
+	background-image: url('	https://res.cloudinary.com/teepublic/image/private/s--KebErvog--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1473622497/production/designs/676804_1.jpg');
+}
+
+#it9{
+	background-size: 100%;
+	background-image: url('https://cdnb.artstation.com/p/assets/images/images/003/605/623/medium/david-ferrer-god-of-war-be-better.jpg?1475526043');
+}
